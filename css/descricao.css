@@ -1,0 +1,70 @@
+.le {
+    text-align: center;
+    margin-top: -75px;
+    text-align: justify;
+    text-align: center;
+}
+.le ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.le li {
+    width: 50%;
+}
+.produto1 {
+    height: 500px;
+    border: 6px groove lightgreen;
+}
+.le p {
+    text-align: justify;
+    font-size: 15px;
+    padding-right: 40px;
+}
+.le h1 {
+    font-style: italic;
+    color: cornflowerblue;
+    font-size: 40px;
+}
+.le h2 {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.le h3 {
+    text-align: justify;
+    font-size: 20px;
+    color: goldenrod;
+
+}
+.le h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-align: justify;
+    margin-top: -30px;
+}
+.le select {
+    float: left;
+}
+.tamanho {
+    height: 60px;
+}
+.tamanho p,.comprar p{
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.comprar {
+    height: 50px;
+    float: left;
+}
+.slogan {
+    width: 400px;
+    margin-top: 20px;
+}
+.logoFundo {
+    position: absolute;
+    opacity: 0.2;
+    width: 150px;
+    margin: 270px -119px;
+}

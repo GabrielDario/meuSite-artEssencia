@@ -1,0 +1,237 @@
+
+.menucel1 {
+    margin-top: 100px;   
+    width: 100%; 
+}
+.home {
+    color: #fff;
+    font-family: ubuntumedium;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 70px 8px 0px 8px;
+    height: 50px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.corpo_index {
+    border:none;
+}
+/*Configurações Padrões*/
+ul.menu, .menu li, .menu a{ margin:0; padding:0; list-style:none; text-decoration:none;}
+ul.menu ul{ position:absolute; display:none; box-shadow:3px 3px 2px #333;}
+
+/* Configurações nivel 1*/
+ul.menu{ float: left;
+         font-family: Verdana, Geneva, sans-serif;
+         font-size: 15px;
+         border-radius: 30px;
+         padding: 0 5px;
+         border: 2px solid #79B8BD;
+         width: 41%;
+         margin-left: 29%;
+}
+.menu li{ float:left; width:auto; position:relative;}
+.menu li a{ display:block; padding:0 20px; line-height:45px; height:45px; float:left; transition:all 0.1s linear; font-family: cursive;    font-size: 17px;font-weight: bold; }
+
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-1{ display:block; top:45px; left:0; padding:5px; width:200px; border-radius:0 0 5px 5px;   }
+.menu ul.submenu-1 a {
+    width: 200px;
+    padding: 0px 0;
+    border-radius: 5px;
+}
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-2{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menu ul.submenu-2 a{  width:160px; padding:0 20px; border-radius:5px; }
+
+/* Configurações nivel 3*/
+.menu li:hover > ul.submenu-3{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menu ul.submenu-3 a{  width:160px; padding:0 20px; border-radius:5px; }
+
+
+/*Configurações de cores*/
+
+/*nivel 1*/
+.menu{    background: #BEFF80; }
+.menu a{     color: #79B8BD;}
+.menu li:hover > a{ background:transparent;  color:#fff;}
+
+/*nivel 2*/
+.submenu-1{ background:#BEFF80;    border: 2px solid #79B8BD;}
+.submenu-1 a{color:#79B8BD;}
+.submenu-1 li:hover > a{ background:transparent; }
+
+/*nivel 3*/
+.submenu-2{ background:#BEFF80;    border: 2px solid #79B8BD;}
+.submenu-2 a{color:#79B8BD;}
+.submenu-2 li:hover > a{ background:transparent; }
+
+/*nivel 3*/
+.submenu-3{ background:#333;}
+.submenu-3 a{color:#fff;}
+.submenu-3 li:hover > a{ background:#000; }
+.redes_socias {
+    right: 0;
+    width: 150px;
+    position: absolute;
+}
+div.gallery {
+    margin: 50px 30px;
+    border: 2px solid #79B8BD;
+    float: left;
+    width: 250px;
+}
+
+div.gallery:hover {
+    border: 2px solid cadetblue;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.fila1 .fila2{
+    display: inline-block;
+    margin-left: 15%;
+}
+.preco {
+    text-align: center;
+}
+.principal {
+    text-align: center;
+}
+.proximos {
+    display: inline-flex;
+    margin-bottom: 3%;
+}
+.proximos a {
+    color:#ccc;
+}
+.proximos h5 {
+    padding-top: 11px;
+    font-size: 0.8em;
+
+}
+.proximos h3:hover {
+    font-size: 1.7em;
+}
+.proximos h5:hover {
+    font-size: 1.0em;
+}
+.logoFundo2 {
+    position: absolute;
+    opacity: 0.2;
+    width: 150px;
+    line-height: 1.5em;
+    margin: -140px -70px;
+}
+.tabela_nomargem {
+    margin-left: 20%;
+}
+.descricao {
+    color: blue;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+.none {
+    display: none;
+}
+iframe {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    /*height: auto;*/
+}
+.desc a:hover {
+    color:cadetblue;
+}
+.conteudoLoja h3 {
+    text-transform: none;
+}
+.lista {
+    width: 100%;
+    text-align: center;
+}
+.lista ul {
+    list-style-type: none;
+    display: -webkit-inline-box;
+}
+.lista li {
+    width:33%;
+}
+.lista img {
+    width:30px;
+    margin: 0 15px;
+    cursor:pointer;
+}
+.precomini1 {
+    display: none;
+}
+.homeLogout h1{
+    text-transform: none;
+    padding:0;
+}
+.homeLogout h5{
+    margin: 10%;
+    padding: 0;
+    color:deepskyblue;
+}
+.homeLogout ul {
+    list-style-type: none;
+    display: -webkit-inline-box;
+}
+.menuCarrinho {
+    width:90%;
+    display: -webkit-inline-box;
+    text-align: -webkit-left;
+    list-style-type: none;
+}
+.menuCarrinho li {
+    width:25%;
+}
+
+.adicionado ul{
+    width:90%;
+    display: -webkit-inline-box;
+    text-align: -webkit-left;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.adicionado li {
+    width:25%;
+}
+.adicionado img {
+    width: 130px;
+    border-radius: 15px;
+
+}
+.adicionado h4 {
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bolder;
+    font-family: cursive;
+    width: 270px;
+}
+.divisaoItens {
+    height: 2px;
+    background: cadetblue;
+    display: none;
+}
+.tp {
+    cursor: pointer;
+}
+.logado {
+    display: none;
+    text-align: center;
+}
+.dados {
+        height: 20px;
+}

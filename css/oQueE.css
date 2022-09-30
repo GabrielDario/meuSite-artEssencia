@@ -1,0 +1,63 @@
+.txtmenu a {
+    color: cadetblue;
+}
+.content p{
+    text-align: justify;
+    margin: 0 175px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+p.finalTexto {
+    margin-bottom: 3%;
+}
+.titulos {
+    margin-top: 3%;
+}
+.logoFundo {
+    position: absolute;
+    opacity: 0.2;
+    width: 300px;
+    line-height: 1.5em;
+    margin: 0 -133px;
+}
+.contentContact {
+    margin: 0 175px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0em;
+}
+.contentContact p {
+    font-size: 15px;
+}
+.contentContact a {
+    color: cadetblue;
+}
+.imgArticle {
+    width: 300px;
+    margin-top: 5%;
+}
+button.buttonEnviar {
+    width: 100px;
+    height: 30px;
+}
+label {
+    display: inherit;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.content_login {
+    margin-bottom: 2%;
+}
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 210px;
+}
+.criar {
+    float: left;
+    margin-left: 20%;
+}
+.logar {
+    float: right;
+    margin-right: 20%;
+}
